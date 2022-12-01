@@ -61,4 +61,25 @@ INSERT into animals (name, type, age, enclosure_id) VALUES ('Sir Hiss', 'Snake',
 INSERT into animals (name, type, age, enclosure_id) VALUES ('Tick Tock', 'Snake', 17, 4);
 INSERT into animals (name, type, age, enclosure_id) VALUES ('Rainbow', 'Snake', 20, 4);
 
+-- Adding employees
+INSERT INTO staff (name, employee_number) VALUES ('Radhika', 12345);
+INSERT INTO staff (name, employee_number) VALUES ('Will', 267858);
+INSERT INTO staff (name, employee_number) VALUES ('Isabel', 398766);
+INSERT INTO staff (name, employee_number) VALUES ('Zsolt', 445777);
+INSERT INTO staff (name, employee_number) VALUES ('Anna', 543212);
+INSERT INTO staff (name, employee_number) VALUES ('Ed', 623451);
+INSERT INTO staff (name, employee_number) VALUES ('Richard', 71234);
+INSERT INTO staff (name, employee_number) VALUES ('Colin', 856899);
 
+-- Adding assignments
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 1, 'Monday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 2, 'Monday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (3, 3, 'Monday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (4, 2, 'Tuesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 2, 'Tuesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (6, 1, 'Wednesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (6, 3, 'Wednesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (7, 4, 'Thursday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (8, 4, 'Friday');
+
+SELECT * FROM assignments;
